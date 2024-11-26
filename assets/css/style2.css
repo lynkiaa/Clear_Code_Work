@@ -1,0 +1,157 @@
+@charset "utf-8";
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: content-box;
+font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+html{
+    height: 100vh;
+}
+
+body{
+    font-family: sans-serif;
+    background-image: linear-gradient(to bottom, #5baab4 50%, #e47c5c 100%);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+
+}
+
+header{
+    background-color: #5cb9c5;
+    margin-top: 3px;
+    border-radius: 7px 7px 0px 0px;
+    width: 90vw;
+    margin: auto;
+}
+
+header>h1{
+    text-align: center;
+    color: black;
+    padding: 3px;
+    text-shadow: whitesmoke;
+    margin-top: 17px;
+}
+
+main{
+   background-color: #2798a5;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+}
+
+main>article{
+    background-color: #00c5c5;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 3px;
+    width: 95%;
+}
+
+article>p{
+
+    color: #1b3a3d;
+    justify-content: space-around;
+}
+
+article>img{
+    width: 170px;
+    margin: 03px;
+    align-items: center;
+    padding: auto;
+
+}
+
+
+body{
+    display: block;
+    align-items: flex-end;
+}
+
+h1{
+    width: 1557px;
+}
+
+.container {
+    display: flex; /* Ativa o Flexbox */
+    align-items: center; /* Alinha verticalmente os itens */
+}
+
+.imagem {
+    margin-right: 20px; /* Espaço entre a imagem e o texto */
+}
+
+footer {
+    background-color: #5baab4, #e47c5c;
+    color: black;
+    text-align: center;
+    padding: 50px
+}
+
+/* Reseta margens e paddings padrões */
+body, h1, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo básico para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #1b3a3d;
+}
+
+/* Estilo para o cabeçalho e o menu */
+header {
+    background-color: 1b3a3d;
+    color: white;
+    padding: 10px 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #2c6268;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 8px 16px;
+    display: block;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #1b3a3d; /* Cor ao passar o mouse */
+}
+
+/* Estilo para o conteúdo principal */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+p {
+    font-size: 40px;
+}
+
+h1 {
+    text-align: center; /* Centraliza o texto horizontalmente */
+  }
