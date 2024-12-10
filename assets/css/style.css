@@ -17,7 +17,7 @@ body{
     background-image: linear-gradient(to bottom, #5baab4 50%, #e47c5c 100%);
     background-position: bottom;
     background-repeat: no-repeat;
-    background-attachment: scroll;
+    background-attachment: fixed;
 
 }
 
